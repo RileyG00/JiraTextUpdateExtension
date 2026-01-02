@@ -1,0 +1,5 @@
+div[data-testid="issue-navigator.ui.issue-results.detail-view.card-list.card.summary"] {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
