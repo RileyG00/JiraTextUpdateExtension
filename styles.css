@@ -3,3 +3,7 @@ div[data-testid="issue-navigator.ui.issue-results.detail-view.card-list.card.sum
   overflow: hidden !important;
   text-overflow: ellipsis !important;
 }
+
+[data-testid="issue-navigator.ui.issue-results.detail-view.card-list.card"] div:has(> div[role="presentation"]) {
+  display: none !important;
+}
